@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.alert{
+    background-color: green;
+    animation: blink 10s linear forwards;
+}
+
+@keyframes blink{
+    to{
+        background-color: red;
+    }
+}
